@@ -1,2 +1,3 @@
-const message = "I go to school";
-console.log(message.lenght);
+const message = "Я Діана"; //7
+const messageLenght = message.length;
+console.log(messageLenght);
