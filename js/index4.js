@@ -14,8 +14,8 @@ console.log(typeof result);
 
 const productName = "Droid";
 const pricePerItem = 3500;
-const mesSage = `You picked ${productName}, price per item is ${pricePerItem}`;
-console.log(mesSage);
+const messagE = `You picked ${productName}, price per item is ${pricePerItem}`;
+console.log(messagE);
 
 const pricePerDroid = 800;
 const orderedQuantity = 6;
