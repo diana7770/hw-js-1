@@ -39,33 +39,33 @@
 // const num = Math.round(Math.random() * (maxNum - minNum) + minNum);
 // console.log(num);
 
-const pricePerItem = 3500;
-const orderedQuantity = 4;
-const totalPrice = pricePerItem * orderedQuantity;
-console.log(totalPrice);
+//const pricePerItem = 3500;
+//const orderedQuantity = 4;
+//const totalPrice = pricePerItem * orderedQuantity;
+//console.log(totalPrice);
 
-const passed = prompt("Скільки Вам років? ");
-const age = passed > 18;
-console.log(age);
+//const passed = prompt("Скільки Вам років? ");
+//const age = passed > 18;
+//console.log(age);
 
-const SAVED_PASSWORD = "Oleg lox)";
-const password = prompt("Введіть пароль!!!");
-const isMatch = SAVED_PASSWORD === password;
-console.log(isMatch);
+//const SAVED_PASSWORD = "Oleg lox)";
+//const password = prompt("Введіть пароль!!!");
+//const isMatch = SAVED_PASSWORD === password;
+//console.log(isMatch);
 
-let a = 5;
-a += 2;
+//let a = 5;
+//a += 2;
 
-let b = 10;
-b -= 4;
+//let b = 10;
+//b -= 4;
 
-let c = 15;
-c *= 3;
+//let c = 15;
+//c *= 3;
 
-let d = 20;
-d /= 10;
+//let d = 20;
+//d /= 10;
 
-console.log(a);
-console.log(b);
-console.log(c);
-console.log(d);
+// console.log(a);
+// console.log(b);
+// console.log(c);
+// console.log(d);
