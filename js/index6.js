@@ -1,17 +1,17 @@
-const firstName = "Oleg".length;
-const lastName = "Bondarenko".length;
-let list;
+// const firstName = "Oleg".length;
+// const lastName = "Bondarenko".length;
+// let list;
 
-if (firstName >= 4 && lastName >= 5) {
-  const list = alert(firstName + lastName);
-} else {
-  const list = alert("ой я не можу виконати умову");
-}
+// if (firstName >= 4 && lastName >= 5) {
+//   const list = alert(firstName + lastName);
+// } else {
+//   const list = alert("ой я не можу виконати умову");
+// }
 
-console.log(list);
+// console.log(list);
 
-let a = 2;
-let b = 1;
+// let a = 2;
+// let b = 1;
 
 // if (a + b < 4) {
 
@@ -22,9 +22,9 @@ let b = 1;
 //  result = 'Вище';
 // }
 
-let result = a + b < 4 ? "Нижче" : "Вище";
+// let result = a + b < 4 ? "Нижче" : "Вище";
 
-console.log(result);
+// console.log(result);
 
 // if ("0") {
 //     console.log( 'Привіт' );

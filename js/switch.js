@@ -26,60 +26,60 @@
 // }
 // console.log(price);
 
-const week = prompt("Який день тижня сьогодні?");
-switch (week) {
-  case "понеділок":
-  case "вівторок":
-  case "середа":
-  case "четвер":
-  case "п'ятниця":
-    console.log("робочий");
-    break;
-  case "субота":
-  case "неділя":
-    console.log("вихідний");
-}
+// const week = prompt("Який день тижня сьогодні?");
+// switch (week) {
+//   case "понеділок":
+//   case "вівторок":
+//   case "середа":
+//   case "четвер":
+//   case "п'ятниця":
+//     console.log("робочий");
+//     break;
+//   case "субота":
+//   case "неділя":
+//     console.log("вихідний");
+// }
 
-for (let i = 1; i <= 10; i += 1) {
-  console.log(`${7 * i}`);
-}
+// for (let i = 1; i <= 10; i += 1) {
+//   console.log(`${7 * i}`);
+// }
 
-let namber = 0;
-for (let i = 12; i <= 27; i += 1) {
-  namber += i;
-}
-console.log(namber);
+// let namber = 0;
+// for (let i = 12; i <= 27; i += 1) {
+//   namber += i;
+// }
+// console.log(namber);
 
-let namBer = 1;
-for (let i = 3; i <= 9; i += 2) {
-  console.log(namBer);
-  namBer *= i;
-}
+// let namBer = 1;
+// for (let i = 3; i <= 9; i += 2) {
+//   console.log(namBer);
+//   namBer *= i;
+// }
 
-for (let i = 1; i <= 100; i += 1) {
-  console.log(i);
+// for (let i = 1; i <= 100; i += 1) {
+//   console.log(i);
 
-  if (i === 49) {
-    break;
-  }
-}
+//   if (i === 49) {
+//     break;
+//   }
+// }
 
-for (let i = 10; i <= 30; i += 1) {
-  if (i === 15) {
-    continue;
-  }
-  console.log(i);
-}
+// for (let i = 10; i <= 30; i += 1) {
+//   if (i === 15) {
+//     continue;
+//   }
+//   console.log(i);
+// }
 
-const goods = 10;
-let totalPrice = 0;
+// const goods = 10;
+// let totalPrice = 0;
 
-for (let i = 0; i <= goods; i += 1) {
-  let price = Math.floor(Math.random() * 4501) + 500;
-  totalPrice = totalPrice + price;
-}
+// for (let i = 0; i <= goods; i += 1) {
+//   let price = Math.floor(Math.random() * 4501) + 500;
+//   totalPrice = totalPrice + price;
+// }
 
-console.log(`сумма замовлення ${totalPrice}`);
+// console.log(`сумма замовлення ${totalPrice}`);
 
 // через фор
 
@@ -105,13 +105,13 @@ console.log(`сумма замовлення ${totalPrice}`);
 //    num += 1;
 // } while (num <= 5);
 
-let nambar;
+// let nambar;
 
-do {
-  nambar = prompt("введіть число більше 100");
-} while (nambar <= 100 && nambar !== null);
-if (nambar !== null) {
-  console.log(`ви ввели число ${num}`);
-} else {
-  console.log("введеня числа відмінено");
-}
+// do {
+//   nambar = prompt("введіть число більше 100");
+// } while (nambar <= 100 && nambar !== null);
+// if (nambar !== null) {
+//   console.log(`ви ввели число ${num}`);
+// } else {
+//   console.log("введеня числа відмінено");
+// }
