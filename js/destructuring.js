@@ -80,7 +80,11 @@ const arr = [
   },
 ];
 
-const [{ name: namem1, prise: prise1 }, { name: namem2, prise: prise2 }, { name: namem3, prise: prise3 }] = arr;  
+const [
+  { name: namem1, prise: prise1 },
+  { name: namem2, prise: prise2 },
+  { name: namem3, prise: prise3 },
+] = arr;
 
 function getAllPropValues(arr, prop) {
   let propValues = [];
@@ -115,3 +119,5 @@ const products = [
 console.log(calculateTotalPrice)(products, "ice cream");
 console.log(calculateTotalPrice)(products, "juice");
 console.log(calculateTotalPrice)(products, "sausages");
+
+//7
